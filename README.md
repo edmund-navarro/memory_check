@@ -15,10 +15,11 @@ Note: If you want to test if it is working. kindly lower the value of the thresh
 This script by default will send notification to my email which is defined on the script.
 
 ###declared mail variables
-subject="Memory check - Critical"
-from="edmundnavarrojr@gmail.com"
-to="edmundnavarrojr@ymail.com"
-also_to="edmundnavarrojr@ymail.com"
+    subject="Memory check - Critical"
+    from="edmundnavarrojr@gmail.com"
+    to="edmundnavarrojr@ymail.com"
+    also_to="edmundnavarrojr@ymail.com"
+
 
 
 # You also need to have mailx and append the below configuration
