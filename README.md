@@ -22,14 +22,14 @@ This script by default will send notification to my email which is defined on th
 # You also need to have mailx and append the below configuration
 # sudo vim /etc/mail.rc
 
-set smtp-use-starttls
-set ssl-verify=ignore
-set smtp-auth=login
-set smtp=smtp://smtp.gmail.com:587 #<gmail smtp host and port>
-set smtp-auth-user=edmundnavarrojr@gmail.com #<gmail acount user email>
-set smtp-auth-password= xxxxxxxx #<your gmail PW>
-set ssl-verify=ignore
-set nss-config-dir=~/.certs edmundnavarrojr@ymail.com #<recipient>
+  set smtp-use-starttls
+  set ssl-verify=ignore
+  set smtp-auth=login
+  set smtp=smtp://smtp.gmail.com:587 #<gmail smtp host and port>
+  set smtp-auth-user=edmundnavarrojr@gmail.com #<gmail acount user email>
+  set smtp-auth-password= xxxxxxxx #<your gmail PW>
+  set ssl-verify=ignore
+  set nss-config-dir=~/.certs edmundnavarrojr@ymail.com #<recipient>
 
 
 # Make sure you have google cert imported
