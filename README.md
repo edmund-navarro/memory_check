@@ -13,3 +13,9 @@ Note: If you want to test if it is working. kindly lower the value of the thresh
 "if [[ "$used" -gt XXX || "$used" -eq XXX ]]; then ###90% or 100% of 1024"
 
 This script by default will send notification to my email which is defined on the script.
+
+###declared mail variables
+subject="Memory check - Critical"
+from="edmundnavarrojr@gmail.com"
+to="edmundnavarrojr@ymail.com"
+also_to="edmundnavarrojr@ymail.com"
