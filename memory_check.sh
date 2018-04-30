@@ -118,7 +118,7 @@ do
  
 done
 
-if [[ "$used" -gt 100 || "$used" -eq 1024 ]]; then ###90% or 100% of 1024
+if [[ "$used" -gt 921 || "$used" -eq 1024 ]]; then ###90% or 100% of 1024
         ps -eo $val1 --sort=-%mem | head >$val2
 	file=$topProc
 	echo Warning, server memory is CRITICALLY low!!! Email Notification Generated! Please Check!!!
