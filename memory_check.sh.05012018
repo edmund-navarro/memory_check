@@ -1,5 +1,6 @@
 #!/bin/bash
 #EBN04302018
+#No Need to Add Parm for this. Just deploy on the node. (nagios script will be created soon)
 
 ###declared mail variables
 subject="Memory check - Critical"
