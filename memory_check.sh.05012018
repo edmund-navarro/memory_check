@@ -4,9 +4,9 @@
 
 ###declared mail variables
 subject="Memory check - Critical"
-from="edmundnavarrojr@gmail.com"
-to="edmundnavarrojr@ymail.com"
-also_to="edmundnavarrojr@ymail.com"
+from="myemail@gmail.com"
+to="someemail@ymail.com"
+also_to="someemail@ymail.com"
 
 used=$(free -mt | grep Mem: | awk '{print $3}')
 totalmem=$(free -mt | grep Mem: | awk '{print $2}')
